@@ -1,3 +1,12 @@
 .joke-display {
   margin-top: 25px;
 }
+
+.quote {
+  font-size: 18px;
+}
+
+.quote-owner {
+  font-size: 16px;
+  font-style: italic;
+}
