@@ -1,3 +1,37 @@
-nav {
-    display: flex;
+* {
+    font-size: 16px;
 }
+
+nav {
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+li {
+    padding-left: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+    cursor: pointer;
+}
+
+.nav-logo {
+    font-size: 22px;
+    color: black;
+}
+
+
