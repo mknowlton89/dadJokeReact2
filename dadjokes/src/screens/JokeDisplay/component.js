@@ -18,6 +18,7 @@ export function JokeDisplay({ joke }) {
         }
 
         favs.push(joke);
+        
 
         localStorage.setItem('favs', JSON.stringify(favs));
     }
